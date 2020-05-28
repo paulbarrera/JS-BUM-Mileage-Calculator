@@ -2,7 +2,7 @@ ECHO is on.
 # Javascript Production Assistant Gas Mileage Calculator 
 
 ## Overview 
-If you use your car for work and use up gas, this calculator will help you store your destinations, miles driven and how much you  spent. This will help you keep tabs on your gas spending so theat you can send the bill to your boss or when you have to file for taxes.  
+If you use your car for work and use up gas, this calculator will help you store your destinations, miles driven and how much you've  spent. This will help you keep tabs on your gas spending so that you can send the bill to your boss or when you have to file for taxes.  
 
 
 ## Technical Summary
