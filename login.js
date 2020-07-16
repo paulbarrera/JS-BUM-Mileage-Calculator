@@ -29,7 +29,7 @@ document.getElementById('currentDate').value = formatDate(date);
 
 //TODO: Countdown Timer til tax day//
 /*Calculate and display data based on an external factor, */
-/*(ex: get the current date and display how many many days remaining until some event)*?
+/*(ex: get the current date and display how many many days remaining until some event)*/
 
 
 
