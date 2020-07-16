@@ -1,6 +1,8 @@
 
 
 //TODO: login date//
+/*Create and use a function that accepts two or more values,*/ 
+/*calculates or determies a new value based on those inputs, and returns a value.*/
 
 let date = new Date();
 
@@ -14,7 +16,8 @@ let formatDate = (date) => {
 
 document.getElementById('currentDate').value = formatDate(date);
 
-//TODO: drivers name input//
+//TODO: Drivers name input//
+/*Create a form and save the response (on click of Submit button) to an external file or API*/
 
 //TODO: Input outset and destination odometer readings//
 
@@ -25,6 +28,8 @@ document.getElementById('currentDate').value = formatDate(date);
 //TODO: Divide BUM by yearly total miles
 
 //TODO: Countdown Timer til tax day//
+/*Calculate and display data based on an external factor, */
+/*(ex: get the current date and display how many many days remaining until some event)*?
 
 
 
