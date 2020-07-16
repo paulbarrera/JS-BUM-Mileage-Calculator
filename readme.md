@@ -1,5 +1,5 @@
 ECHO is on.
-# Javascript Production Assistant Gas Mileage Calculator 
+# Javascript Business User Mileage Calculator 
 
 ## Overview 
 If you use your car for work, this calculator will help you calculate your miles driven per trip and at the end of the year give you a total amount of miles driven for your tax form. 

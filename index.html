@@ -3,14 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
     <link href="styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Driver</title>
+    <style>
+        html {
+          font-family: Arial, Helvetica, sans-serif;
+          color:#f7f1f1
+        }
+  
+        body {
+          margin: 0 auto;
+          max-width: 1024px;
+        }
+  
+        main {
+          padding: 20px;
+        }
+  
+        header, footer {
+          background: black;
+          padding: 20px;
+          border: 1px solid black;
+        }
+  
+        header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+  
+        form {
+          font-size: 0.8rem;
+        }
+  
+        .personal-greeting {
+          font-weight: bold;
+        }
+      </style> 
 </head>
 <body>
-    <div class="">
+    <header>
+        <h1>Mileage Calculator</h1>
+        <form>
+          <div class="remember">
+            <label for="entername">Enter your name:</label>
+            <input id="entername" type="text" required>
+            <input id="submitname" type="submit" value="I'm Driving">
+          </div>
+          <div class="forget">
+            <label for="forgetname">Not Driving Today?</label>
+            <input id="forgetname" type="reset" value="Forget">
+          </div>
+        </form>
+      </header>
+    <script type="text/javascript" src="js/login.js"></script> 
+</header>
 
-    </div>
-    <script type="text/javascript" src="js/login.js"></script>   
+<main>
+
+  <p class="personal-greeting">Keeping your driving miles legit.</p>
+
+  <p></p>
+
+
+  <p></p>
+
+
+  <p></p>
+
+</main>
+
+
+<footer>
+  <p>email address</p>
+</footer>
+</body>
+</html> 
+<script src="login.js" defer></script> 
 </body>
 </html>

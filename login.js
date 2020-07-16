@@ -11,10 +11,10 @@ let formatDate = (date) => {
     let month= getTwoDigits(date.getMonth() + 1);
     let year = date.getFullYear();
 
-    return `${month}-${day}-${year}`;
-}
+    return `${month}-${day}-${year}`;  
+};
 
-document.getElementById('currentDate').value = formatDate(date);
+window.print('currentDate').value = formatDate(date);
 
 //TODO: Drivers name input//
 /*Create a form and save the response (on click of Submit button) to an external file or API*/
@@ -30,7 +30,3 @@ document.getElementById('currentDate').value = formatDate(date);
 //TODO: Countdown Timer til tax day//
 /*Calculate and display data based on an external factor, */
 /*(ex: get the current date and display how many many days remaining until some event)*/
-
-
-
-    
