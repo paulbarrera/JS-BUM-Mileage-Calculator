@@ -14,7 +14,7 @@ let formatDate = (date) => {
     return `${month}-${day}-${year}`;  
 };
 
-window.print('currentDate').value = formatDate(date);
+console.log('currentDate').value = formatDate(date);
 
 //TODO: Drivers name input//
 /*Create a form and save the response (on click of Submit button) to an external file or API*/
