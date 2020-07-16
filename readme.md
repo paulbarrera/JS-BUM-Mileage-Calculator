@@ -2,8 +2,7 @@ ECHO is on.
 # Javascript Production Assistant Gas Mileage Calculator 
 
 ## Overview 
-If you use your car for work and use up gas, this calculator will help you store your destinations, miles driven and how much you've  spent. This will help you keep tabs on your gas spending so that you can send the bill to your boss or when you have to file for taxes.  
-
+If you use your car for work, this calculator will help you calculate your miles driven per trip and at the end of the year give you a total amount of miles driven for your tax form. 
 
 ## Technical Summary
 
@@ -14,15 +13,21 @@ If you use your car for work and use up gas, this calculator will help you store
 
 ## Features
 
+* Login Date
+
 * Input drivers name
 
-* Input miles driven
+* Input outset odometer reading 
 
-* Input total amount of gas 
+* Input destination odomoter reading
 
-* Calculate and print the total amount fromm Gas and Miles driven. 
+* Calculate total amount of business usage miles    (BUM) driven
 
-* Create a receipt to employer for payment
+* Calculate total amount of yearly miles
+
+* Divide BUM by yearly total miles
+
+* Countdown to tax file date
 
 ## Milestone List
 
