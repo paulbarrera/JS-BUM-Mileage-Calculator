@@ -55,6 +55,3 @@ Week 9-10
     [ ] Update Readme form
     [ ] Submit to mentors for review 
     [ ] Push final project to GitHub
-
-
-
