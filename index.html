@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Driver</title>
+    <title>BUMMER</title>
     <style>
         html {
           font-family: Arial, Helvetica, sans-serif;
@@ -18,6 +18,7 @@
   
         main {
           padding: 20px;
+          color:black
         }
   
         header, footer {
@@ -39,46 +40,56 @@
         .personal-greeting {
           font-weight: bold;
         }
-      </style> 
+      </style>
 </head>
 <body>
     <header>
         <h1>Mileage Calculator</h1>
-        <form>
+        <form action="/" method="GET">
           <div class="remember">
-            <label for="entername">Enter your name:</label>
-            <input id="entername" type="text" required>
+            <label for="name">Enter your name:</label>
+            <input id="entername" name="name" type="text" required>
             <input id="submitname" type="submit" value="I'm Driving">
           </div>
-          <div class="forget">
-            <label for="forgetname">Not Driving Today?</label>
-            <input id="forgetname" type="reset" value="Forget">
+          <div>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password">
+          </div>
+          <div>
+            <button for="submit">Submit</button>
           </div>
         </form>
       </header>
-    <script type="text/javascript" src="js/login.js"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script> 
 </header>
-
 <main>
-
   <p class="personal-greeting">Keeping your driving miles legit.</p>
-
-  <p></p>
-
-
-  <p></p>
-
-
-  <p></p>
-
+  <div>
+    <label for="date">Todays Date:</label>
+    <input id="date" type="date" name="trip-start">
+  </div>
 </main>
-
-
+</body>
+<p>Odometer Start:<input type="number" id="o1"/><br/><br/></p>
+<p>Odometer End: <input type="number" id="o2"/><br/><br/></p>
+<select id="operators">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="/">/</option>
+  <option value="X">X</option>
+</select>
+<button onclick="calc();">=</button>
+<input type="text" id="result"/>
+<p>Total: <input id="total" type="number" reading="computeMiles() "></p>
+<h2 id="miles"></h2>
+<script src="main.js"></script>
 <footer>
   <p>email address</p>
+  <div>
+    <label for="email"></label>
+    <input type="email" id="email" pattern=".+@globex.com" size= "30" required>
+  </div>
 </footer>
 </body>
-</html> 
-<script src="login.js" defer></script> 
-</body>
-</html> 
+</html>

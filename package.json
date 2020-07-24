@@ -1,0 +1,33 @@
+{
+  "name": "javascriptproject",
+  "version": "1.0.0",
+  "description": "package.json add",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.16.4",
+    "form-data": "^3.0.0",
+    "inquirer": "^7.3.3",
+    "jquery": "^3.5.1",
+    "module-name": "^0.0.1-security",
+    "prompt": "^1.0.0",
+    "requirejs": "^2.3.6",
+    "save": "^2.4.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulbarrera/javascriptproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulbarrera/javascriptproject/issues"
+  },
+  "homepage": "https://github.com/paulbarrera/javascriptproject#readme"
+}
