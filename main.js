@@ -1,25 +1,28 @@
-
-// TODO: login date//
-// returns a string and the login date//
 import { createInterface } from 'readline';
-//input/output coming from the terminal//
-const rl = createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const readlineInterface = createInterface(process.stdin, process.stdout);
 
-rl.question('are you driving today? ', (answer) => {
-// TODO: Log the answer in a database
-const date = new Date();
-  console.log("great, let's drive!");
-  console.log("Lets start logging your driving on " + date);
-
-  rl.close();
-});
+function ask(questionText) {
+  return new Promise((resolve, _reject) => {
+    readlineInterface.question(questionText, resolve);
+  });
+}
 
 // TODO: Drivers name input//
 // /*Create a form and save the response (on click of Submit button) to an external file or API*/
+async function main() {
 
+    const name = await ask("What's your full name? ")
+    const drive = await ask("Ready to drive? ");
+    const email = await ask("What's your email address? ");
+    const user = { name, drive, email };
+    console.log(user);
+  process.exit();
+}
+//call the function//
+main();
+
+// TODO: login date//
+// returns a string and the login date//
 
 // //TODO: Countdown Timer til tax day//
 // //(ex: get the current date and display how many many days remaining until some event//
