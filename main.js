@@ -10,7 +10,6 @@ function ask(questionText) {
 // TODO: Drivers name input//
 // /*Create a form and save the response (on click of Submit button) to an external file or API*/
 async function main() {
-
     const name = await ask("What's your full name? ")
     const drive = await ask("Ready to drive? ");
     const email = await ask("What's your email address? ");

@@ -7,8 +7,7 @@ If you use your car for work, this calculator will help you calculate your miles
 ## Technical Summary
 
 * Backend: Javascript
-* Framework: Angular JS
-* DB: MySQL
+* Framework: Node JS
 * Front End: HTML, CSS
 
 ## Features
