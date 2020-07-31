@@ -44,35 +44,33 @@
 </head>
 <body>
     <header>
+      <p>Days Until Tax Day</p>>
+      <div align="center" id="timer"></div>
         <h1>Mileage Calculator</h1>
-        <form action="/" method="GET">
-          <div class="remember">
-            <label for="name">Enter your name:</label>
-            <input id="entername" name="name" type="text" required>
-            <input id="submitname" type="submit" value="I'm Driving">
-          </div>
-          <div>
+        <form action="test.html" method="GET" onsubmit="return validation();">
+          <div class="info">
+            <label for="name">Enter your full name:</label>
+            <input id="name" name="name" type="text" required><br>
             <label for="password">Password:</label>
-            <input id="password" name="password" type="password">
-          </div>
-          <div>
-            <button for="submit">Submit</button>
+            <input id="password" name="password" type="password" required><br>
+            <label for="submitname">Submit:</label>
+            <input id="submitname" type="submit" value="I'm Driving"><br>
           </div>
         </form>
+        <div id="eresult" style="color:red;"></div>
       </header>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="main.js"></script> 
 </header>
 <main>
   <p class="personal-greeting">Keeping your driving miles legit.</p>
   <div>
-    <label for="date">Todays Date:</label>
+    <label for="date">Login Todays Date:</label>
     <input id="date" type="date" name="trip-start">
   </div>
 </main>
 </body>
-<p>Odometer Start:<input type="number" id="o1"/><br/><br/></p>
-<p>Odometer End: <input type="number" id="o2"/><br/><br/></p>
+<p>Odometer Start:<input type="text" id="n1"/><br/><br/></p>
+<p>Odometer End: <input type="text" id="n2"/><br/><br/></p>
 <select id="operators">
   <option value="+">+</option>
   <option value="-">-</option>
@@ -83,13 +81,15 @@
 <input type="text" id="result"/>
 <p>Total: <input id="total" type="number" reading="computeMiles() "></p>
 <h2 id="miles"></h2>
-<script src="main.js"></script>
+
 <footer>
-  <p>email address</p>
-  <div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <form action="test.html">
+    <h2>email</h2>
     <label for="email"></label>
-    <input type="email" id="email" pattern=".+@globex.com" size= "30" required>
-  </div>
+    <input id="email">
+  </form>
 </footer>
+<script src="main.js"></script>
 </body>
 </html>

@@ -1,6 +1,14 @@
 ECHO is on.
 # Javascript Business User Mileage Calculator 
 
+1. Run off of index.html
+2. Enter Full Name and a password, emamil field requirement will show if not entered. Enter an email and then click on I'm Driving. 
+It will take you to another html test page. I'm still working on the email regex. 
+3. Countdown Timer Until Tax Day. 
+4. Input current month, day and year. (still in progress)
+5. Odometer start and end calculator. (still in progrtess)
+6. Thanks mentors for your time. 
+
 ## Overview 
 If you use your car for work, this calculator will help you calculate your miles driven per trip and at the end of the year give you a total amount of miles driven for your tax form. 
 
@@ -20,7 +28,7 @@ If you use your car for work, this calculator will help you calculate your miles
 
 * Input destination odomoter reading
 
-* Calculate total amount of business usage miles    (BUM) driven
+* Calculate total amount of business usage miles (BUM) driven
 
 * Calculate total amount of yearly miles
 
@@ -30,27 +38,8 @@ If you use your car for work, this calculator will help you calculate your miles
 
 ## Milestone List
 
-Week 1
-
     [x] Create README file
     [x] Create a GitHub Repo and Start on a Project Plan
-
-Week 2-6
-
-    [ ] Create and use a function that accepts two or more values, calculates or determies a new value based on those inputs, and returns a value.
-    [ ] Create a form and save the response (on click of Submit button) to an external file or API
-    [ ] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
-    [ ] Read and parse an external file _such as JSON or CSV) into your application and disp[lay some data from that in your app.
-
-    
-Week 7-8
-
-    [ ] Scaffold an initial migration
-    [ ] Create 3 or more unit tests for your application
-    [ ] Read and parse an external file API and display data in your app (such with fetch() or AJAX)
-   
-Week 9-10
-
-    [ ] Update Readme form
-    [ ] Submit to mentors for review 
-    [ ] Push final project to GitHub
+    [x] Update Readme form
+    [x] Submit to mentors for review 
+    [x] Push final project to GitHub
