@@ -2,11 +2,11 @@ ECHO is on.
 # Javascript Business User Mileage Calculator 
 
 1. Run off of index.html
-2. Enter Full Name and a password, emamil field requirement will show if not entered. Enter an email and then click on I'm Driving. 
+2. Enter Full Name and a password, email field requirement will show if not entered. Enter an email and then click on I'm Driving button. 
 It will take you to another html test page. I'm still working on the email regex. 
 3. Countdown Timer Until Tax Day. 
 4. Input current month, day and year. (still in progress)
-5. Odometer start and end calculator. (still in progrtess)
+5. Odometer start and end calculator. (still in progress)
 6. Thanks mentors for your time. 
 
 ## Overview 
